@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div id="header">
+      <h1>COLOR COMBINATIONS</h1>
+    </div>
+    <div class="container" id="main">
+      <label for="color">Enter Color In Hex: </label>
+      <input type="text" id="color" name="color" />
+      <select name="scheme" id="scheme">
+        <option value="mono">Mono</option>
+        <option value="contrast">Contrast</option>
+        <option value="triade">Triade</option>
+        <option value="tetrade">Tetrade</option>
+        <option value="analogic">Analogic</option>
+      </select>
+      <button class="button" id="btn" onclick="readInput()">Go</button>
+    </div>
+    <div class="colorContainer"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

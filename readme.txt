@@ -1,0 +1,1 @@
+Allows you to find the color combinations of whatever color you are looking for 
